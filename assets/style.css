@@ -1,0 +1,96 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.kasai {
+    background-color: black;
+    font-size: 30px;
+    padding: 10px;
+    flex: 1 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.nav-list a {
+color:white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.nav-list a:hover {
+    background-color: pink;
+    opacity: 75%;
+    padding: 10px;
+
+}
+
+.subtitle {
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    background: black;
+    opacity: 57%;
+    border-radius: 10px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("images/mountainslake.jpg");
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+.about {
+    display: flex;
+    justify-content: flex-start
+    align-items: flex-start
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    background: pink;
+    opacity: 40%;
+    color: black; 
+}
+
+.card img {
+    width: 100px;
+    min-width: 300px;
+}
+.bottomlinks {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
