@@ -13,6 +13,7 @@ header {
     padding: 10px;
     opacity: 50%;
     color: pink;
+
 }
 
 nav {
@@ -62,7 +63,6 @@ nav a:hover {
     background-image: url("images/mountainslake.jpg");
     height: 400px;
     width: 100%;
-    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -89,7 +89,8 @@ section {
 
 .context {
     flex: 3;
-
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .cards {
@@ -103,7 +104,7 @@ article:first-child {
     padding: 10px 10px;
     border: black;
     border-radius: 25%;
-    
+
 
 
 
@@ -142,10 +143,10 @@ article h3 {
     position: absolute;
     bottom: 30px;
     margin-top: 100px;
-    margin-left:  25px;
+    margin-left: 25px;
     padding: 10px 5px;
     border-radius: 0px 25px 25px;
-    background-color:rosybrown
+    background-color: rosybrown
 }
 
 
@@ -154,25 +155,22 @@ ul {
     justify-content: center;
     gap: 20px;
     list-style-type: none;
-   
+
 }
 
 ul a {
     color: pink
 }
 
-@media screen and (max-width: 1200px) {
-    
-}
+@media screen and (max-width: 1200px) {}
 
 
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 768px) {
+    width: 100%;
+
 }
 
 
 @media screen and (max-width: 425px) {
-    
+    width: 100%;
 }
-
-

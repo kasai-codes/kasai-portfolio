@@ -8,8 +8,10 @@
   }
   body {
     min-height: 100%;
-    font-family: sans-serif;
     background-color: black;
     color: white;
   }
- 
+
+  header {
+    font-family: 'Courier New', Courier, monospace;
+  }
